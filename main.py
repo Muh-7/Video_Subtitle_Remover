@@ -38,7 +38,8 @@ while True:
 cap.release()
 out.release()
 
-# 🎬 إعادة الصوت
+
+
 original_clip = VideoFileClip(input_video)
 processed_clip = VideoFileClip(temp_video)
 
